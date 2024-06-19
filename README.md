@@ -1,57 +1,14 @@
-# Face Clustering
+# 오픈소스프로그래밍 팀
 
-Face clustering implementation using python.
+#논문
+https://viewer.dcollection.net/originalViewer.jsp?streamdocsId=72059310428674398&mode=011
 
-* read video from file or web cam
-* detect faces in the frame
-* encode the faces
-* save/load the encodings using pickle
-* cluster the encodings using DBSCAN algorithm
-* save the clustered faces in separated directory
+#참고한 사이트 및 깃허브
+https://medium.com/@jongdae.lim/%EA%B8%B0%EA%B3%84-%ED%95%99%EC%8A%B5-machine-learning-%EC%9D%80-%EC%A6%90%EA%B2%81%EB%8B%A4-part-4-63ed781eee3c
 
-```
-$ python face_clustering.py -h
-usage: face_clustering.py [-h] [-e ENCODE] [-c CAPTURE] [-s STOP]
+https://ukayzm.github.io/unknown-face-classifier/ 
+https://github.com/ukayzm/opencv/tree/master/unknown_face_classifier
+https://ukayzm.github.io/visitor-alarm-telegram-bot/
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -e ENCODE, --encode ENCODE
-                        video file to encode or '0' to encode web cam
-  -c CAPTURE, --capture CAPTURE
-                        # of frame to capture per second
-  -s STOP, --stop STOP  stop encoding after # seconds
 
-$ python face_clustering.py -e video_file.mp4    # cluster faces in video_file
-
-$ python face_clustering.py -e 0                 # video input from web cam
-```
-
-# Result Example
-
-## Cluster the faces in this video:
-
-[![I_Ran_La_La_Land.mkv](https://img.youtube.com/vi/bUQj7Ng7PCs/0.jpg)](https://www.youtube.com/watch?v=bUQj7Ng7PCs)
-
-## Results:
-
-* ID1
-<p align="center">
-   <img src="jpg/ID1.montage.jpg">
-</p>
-
-* ID3
-<p align="center">
-   <img src="jpg/ID3.montage.jpg">
-</p>
-
-* ID6
-<p align="center">
-   <img src="jpg/ID6.montage.jpg">
-</p>
-
-* ID7
-<p align="center">
-   <img src="jpg/ID7.montage.jpg">
-</p>
-
-Visit [https://ukayzm.github.io/face-clustering/](https://ukayzm.github.io/face-clustering/) for more information.
+https://magicode.tistory.com/72
