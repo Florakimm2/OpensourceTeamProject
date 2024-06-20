@@ -29,7 +29,7 @@ $ python live_streaming.py
 
 <br/><br/>
 
-## Anaconda 가상 환경에서 오류 발생시 라이브러리 다운 방법
+## ✊Anaconda 가상 환경에서 오류 발생시 라이브러리 다운
 opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다운 받아야함  
 
 <br/>
