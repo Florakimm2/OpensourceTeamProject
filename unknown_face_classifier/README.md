@@ -31,7 +31,7 @@ $ python live_streaming.py
 * opencv-contrib-python
 * dlib (CMake 다운로드가 필요합니다.)
 * face_recognition
-* flask  
+* imutils 
 
 <br/><br/>
 
@@ -49,25 +49,8 @@ opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다
 - opencv
 - dlib
 - face_recognition
-- flask  
+- imutils
 
-<br/><br/>
-
-## 💻코드 수정 : face_recog
-##### 발생 오류 : RuntimeError: Unsupported image type, must be 8bit gray or RGB image.
-
-**해결 방법**
-```
-28번째 줄에 추가
-rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) 
-
-49번째 줄 수정
-rgb_small_frame = cv2.cvtColor(small_frame, cv2.COLOR_BGR2RGB)
-```
-
-<br/><br/>
-
-###### 제대로 수정한 것인지 확실하지는 않지만 얼굴 인식은 잘 이루어졌음
 
 <br/>
 
