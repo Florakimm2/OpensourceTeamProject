@@ -1,18 +1,49 @@
 # Face Recognition
 
-Display webcam video in real time with person's names on the video.
+**프로젝트는 Anaconda 가상 환경에서 이루어졌습니다**
 
-* camera.py - check webcam
-* face_recog.py - recognize faces on webcam frame
-* live_streaming.py - send video over network http://IP_addr:5000/
+웹캠 비디오를 실시간으로 인식하여 사람 이름과 함께 표시한다.
 
-All 3 files are runnable like this:
+* camera.py - 웹캠 작동 확인
+* face_recog.py - 웹캠으로 얼굴을 인식한다.
+* live_streaming.py - http://IP_addr:5000/ 를 통해 비디오 전송
+
+코드 작동 방법
 ```
 $ python camera.py
 $ python face_recog.py
 $ python live_streaming.py
 ```
 
-Put picture with one person's face in `knowns` directory. Change the file name as the person's name like: `john.jpg` or `jane.jpg`. Then run `python face_recog.py`. Or `python live_streaming.py` to send video over network.
+## 필요 라이브러리
+* opencv-python
+* opencv-contrib-python
+* dlib (CMake 다운로드가 필요합니다.)
+* face_recognition
+* flask
 
-Visit [https://ukayzm.github.io/python-face-recognition/](https://ukayzm.github.io/python-face-recognition/) for more information.
+## Anaconda 가상 환경에서 오류 발생시 라이브러리 다운 방법
+opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다운 받아야함
+
+**그 외 conda install을 사용해야하는 라이브러리**
+*conda install -c conda-forge 라이브러리_이름*
+- opencv
+- dlib
+- face_recognition
+- flask
+
+## 💻코드 수정 : face_recog
+#### 발생 오류 : RuntimeError: Unsupported image type, must be 8bit gray or RGB image.
+
+**해결 방법**
+```
+28번째 줄에 추가
+rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) 
+
+49번째 줄 수정
+rgb_small_frame = cv2.cvtColor(small_frame, cv2.COLOR_BGR2RGB)
+```
+
+*제대로 수정한 것인지 확실하지는 않지만 얼굴 인식은 잘 이루어졌음*
+
+사용한 깃허브 [https://github.com/ukayzm/opencv/tree/master/face_recognition](https://ukayzm.github.io/python-face-recognition/)
