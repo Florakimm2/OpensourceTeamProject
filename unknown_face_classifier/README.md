@@ -54,7 +54,7 @@ opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다
 
 <br/>
 
-사용한 깃허브 [https://github.com/ukayzm/opencv/tree/master/face_recognition]  
+사용한 깃허브 (https://github.com/ukayzm/opencv/tree/master/unknown_face_classifier) 
 참고 : (https://ukayzm.github.io/python-face-recognition/)
 
 
