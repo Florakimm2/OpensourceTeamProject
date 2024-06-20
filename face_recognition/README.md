@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-### ✔️코드 작동 방법
+## ✔️코드 작동 방법
 ```
 $ python camera.py
 $ python face_recog.py
@@ -20,7 +20,7 @@ $ python live_streaming.py
 ```  
 <br/><br/>
 
-### 📂필요 라이브러리
+## 📂필요 라이브러리
 * opencv-python
 * opencv-contrib-python
 * dlib (CMake 다운로드가 필요합니다.)
@@ -47,7 +47,7 @@ opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다
 
 <br/><br/>
 
-### 💻코드 수정 : face_recog
+## 💻코드 수정 : face_recog
 ##### 발생 오류 : RuntimeError: Unsupported image type, must be 8bit gray or RGB image.
 
 **해결 방법**
