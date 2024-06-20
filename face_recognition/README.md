@@ -65,4 +65,5 @@ rgb_small_frame = cv2.cvtColor(small_frame, cv2.COLOR_BGR2RGB)
 
 <br/>
 
-사용한 깃허브 [https://github.com/ukayzm/opencv/tree/master/face_recognition](https://ukayzm.github.io/python-face-recognition/)
+사용한 깃허브 [https://github.com/ukayzm/opencv/tree/master/face_recognition]
+참고 : (https://ukayzm.github.io/python-face-recognition/)
