@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-## ✔️코드 작동 방법
+### ✔️코드 작동 방법
 ```
 $ python camera.py
 $ python face_recog.py
@@ -20,7 +20,7 @@ $ python live_streaming.py
 ```  
 <br/><br/>
 
-## 📂필요 라이브러리
+### 📂필요 라이브러리
 * opencv-python
 * opencv-contrib-python
 * dlib (CMake 다운로드가 필요합니다.)
@@ -29,7 +29,7 @@ $ python live_streaming.py
 
 <br/><br/>
 
-## ✊Anaconda 가상 환경에서 오류 발생시 라이브러리 다운
+### ✊Anaconda 가상 환경에서 오류 발생시 라이브러리 다운
 opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다운 받아야함  
 
 <br/>
@@ -47,8 +47,8 @@ opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다
 
 <br/><br/>
 
-## 💻코드 수정 : face_recog
-#### 발생 오류 : RuntimeError: Unsupported image type, must be 8bit gray or RGB image.
+### 💻코드 수정 : face_recog
+##### 발생 오류 : RuntimeError: Unsupported image type, must be 8bit gray or RGB image.
 
 **해결 방법**
 ```
@@ -65,5 +65,5 @@ rgb_small_frame = cv2.cvtColor(small_frame, cv2.COLOR_BGR2RGB)
 
 <br/>
 
-사용한 깃허브 [https://github.com/ukayzm/opencv/tree/master/face_recognition]
+사용한 깃허브 [https://github.com/ukayzm/opencv/tree/master/face_recognition]  
 참고 : (https://ukayzm.github.io/python-face-recognition/)
