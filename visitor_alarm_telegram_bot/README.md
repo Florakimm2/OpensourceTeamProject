@@ -65,7 +65,7 @@ Telegram 앱을 핸드폰과 기기에 설치한 후, 봇의 채팅창에 들어
 webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다. 
 
 <p align="center">
-  <img src="png/tele_settings.png">
+  <img src="png/tele_Settings.png">
 </p>
 
 ## /start
