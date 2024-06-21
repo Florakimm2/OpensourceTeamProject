@@ -6,7 +6,6 @@
 * 이전에 저장된 얼굴들과 인식되는 얼굴 비교
 * 새로운 얼굴이 인식되거나 저장된 얼굴이 다시 나타났을 시 or the person appears again, Telegram을 통해 메세지 전달하기
 
-This code is highly refering to [unknown_face_classifier](https://github.com/ukayzm/opencv/tree/master/unknown_face_classifier). I recommend you to read it first.
 
 # 작동 과정
 
@@ -31,9 +30,8 @@ optional arguments:
                         alarm interval second between appearance (default=10)
 ```
 
-You have to make a Telegram bot before doing this. Please search Google for how to make a Telegram Bot.
-
-Once you make the bot, execute visitor_alarm_telegram_bot.py with the token as a parameter.
+구글을 서치해 Telegram bot을 우선 만들었습니다. 
+그 후, visitor_alarm_telegram_bot.py 파일을 토큰으로 파라미터로 실행시켰습니다. with the token as a parameter.
 
 ```bash
 $ python visitor_alarm_telegram_bot.py --token '1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI'
@@ -65,7 +63,7 @@ Telegram 앱을 핸드폰과 기기에 설치한 후, 봇의 채팅창에 들어
 webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다. 
 
 <p align="center">
-  <img src="">
+  <img src="png/name">
 </p>p>
 
 ## /start
@@ -73,7 +71,7 @@ webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다.
 설명..?
 
 <p align="center">
-   <img src="png/vat_start.png">
+   <img src="png/tele_start1.png">
 </p>
 
 ## /start -> 사람 처음 등장
@@ -81,7 +79,7 @@ webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다.
 새로운 사람이 인식되었을 떼, 해당 메시지가 사용자에게 전송됩니다. 
 
 <p align="center">
-   <img src="png/vat_person_first.png">
+   <img src="png/tele_start2.png">
 </p>
 
 ## /start -> 사람 재등장
@@ -89,7 +87,7 @@ webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다.
 동일한 사람이 다시 인식 되었을 때, 해당 메시지가 사용자에게 전송됩니다.
 
 <p align="center">
-   <img src="png/vat_person_again.png">
+   <img src="png/tele_start3.png">
 </p>
 
 ## /rename
@@ -97,7 +95,7 @@ webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다.
 인식한 person_01, person0_02에 이름을 설정해두었습니다.
 
 <p align="center">
-   <img src="png/vat_rename.png">
+   <img src="png/tele_rename.png">
 </p>
 
 ## /list
@@ -105,7 +103,7 @@ webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다.
 You can check the list of persons.
 
 <p align="center">
-   <img src="png/vat_list.png">
+   <img src="png/tele_list.png">
 </p>
 
 # 참고 자료 
