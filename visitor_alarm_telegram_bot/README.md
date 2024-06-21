@@ -43,7 +43,7 @@ optional arguments:
 그 후, visitor_alarm_telegram_bot.py 파일을 토큰으로 파라미터에 주고 실행시켰습니다. (아래 사진 참조)
 
 <p align="center">
-   <img src="png/terminal_screenshot.png">
+  <img src="png/terminal_sceenshot.png">
 </p>
 
 Telegram 앱을 핸드폰과 기기에 설치한 후, 봇의 채팅창에 들어가 '/start' 명령어를 사용해 작동시켰습니다.
