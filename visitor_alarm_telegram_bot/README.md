@@ -33,17 +33,6 @@ optional arguments:
 구글을 서치해 Telegram bot을 우선 만들었습니다. 
 그 후, visitor_alarm_telegram_bot.py 파일을 토큰으로 파라미터에 주고 실행시켰습니다. (아래 사진 참조)
 
-```bash
-$ python visitor_alarm_telegram_bot.py --token '1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI'
-Visitor Alarm Telegram Bot is started.
-* srcfile = 0 (webcam)
-* resize_ratio = 1.0
-* sbf (second between frame processed) = 0.5
-* similarity threshold = 0.42
-* appearance_interval = 10
-press ^C to stop...
-```
-
 <p align="center">
    <img src="png/terminal_screenshot">
 </p>
