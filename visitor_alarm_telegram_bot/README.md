@@ -1,15 +1,14 @@
-# Visitor Alarm Telegram Bot
+# Visitor Alarm Telegram Bot 소개
 
-This is a Telegram Bot doing the folowings:
-
-* read video from web cam (or a video file)
-* detect faces in the picture
-* compare the face with the previously saved faces
-* if new person is detected or the person appears again, send a message via Telegram
+텔레그램 봇은 다음 기능들을 수행할 수 있습니다 : 
+* web cam에서 (혹은 비디오 파일) 비디오 읽어오기
+* 화면에서 얼굴 인식하기
+* 이전에 저장된 얼굴들과 인식되는 얼굴 비교
+* 새로운 얼굴이 인식되거나 저장된 얼굴이 다시 나타났을 시 or the person appears again, Telegram을 통해 메세지 전달하기
 
 This code is highly refering to [unknown_face_classifier](https://github.com/ukayzm/opencv/tree/master/unknown_face_classifier). I recommend you to read it first.
 
-# Usage
+# 작동 과정
 
 ```bash
 $ python visitor_alarm_telegram_bot.py -h
@@ -47,92 +46,61 @@ Visitor Alarm Telegram Bot is started.
 press ^C to stop...
 ```
 
-Or you can specify `--srcfile` parameter to use a video file instead of webcam. This is useful for the testing purpose.
+Telegram 앱을 핸드폰과 기기에 설치한 후, 봇의 채팅창에 들어가 '/start' 명령어를 사용해 작동시켰습니다.
 
-```bash
-$ python visitor_alarm_telegram_bot.py --token '1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI' --srcfile ~/Videos/extj.mp4
-```
 
-Then, open a chat with the bot in Telegram app on your phone. Input `/start` to start face classifier. Input `/help` for more commands.
-
-| Available Commands | Comments |
+| 명령어 목록 | 설명 |
 |--------------------|----------|
-| /help | show available commands |
-| /settings | show settings |
-| /start | start face classifier |
-| /stop | stop face classifier |
-| /status | show the status of person DB and face classifier |
-| /shot | show the current screen of web cam (or the video) |
-| /rename old_name new_name | change the person's name |
-| /list | list all persons with picture |
+| /help | 명령어 목록 출력 |
+| /settings | 현재의 설정 값 출력 |
+| /start | face classifier를 구동하여 얼굴 인식과 분류를 시작 |
+| /stop | face classifier를 종료 |
+| /rename old_name new_name | 인식된 사람의 이름 변경 |
+| /list | person DB에 있는 사람의 리스트와 사진을 출력 |
 
-# Screen shots
+# (결과)채팅 화면 캡쳐
 
-## settings
+## /settings
 
-Show settings.
+webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다. 
 
 <p align="center">
-   <img src="png/vat_settings.png">
-</p>
+  <img src="">
+</p>p>
 
-## start
+## /start
 
-Start face classifier.
+설명..?
 
 <p align="center">
    <img src="png/vat_start.png">
 </p>
 
-## On a person appeared first
+## /start -> 사람 처음 등장
 
-When new person is detected, a message is delivered to the user.
+새로운 사람이 인식되었을 떼, 해당 메시지가 사용자에게 전송됩니다. 
 
 <p align="center">
    <img src="png/vat_person_first.png">
 </p>
 
-## On the person appeared again
+## /start -> 사람 재등장
 
-When the person is detected again, a message is delivered to the user.
+동일한 사람이 다시 인식 되었을 때, 해당 메시지가 사용자에게 전송됩니다.
 
 <p align="center">
    <img src="png/vat_person_again.png">
 </p>
 
-## status
+## /rename
 
-Show the current status.
-
-<p align="center">
-   <img src="png/vat_status.png">
-</p>
-
-## stop
-
-Stop face classifier.
-
-<p align="center">
-   <img src="png/vat_stop.png">
-</p>
-
-## shot
-
-You can see the screen shot of the current video.
-
-<p align="center">
-   <img src="png/vat_shot.png">
-</p>
-
-## rename
-
-You can change the name of person.
+인식한 person_01, person0_02에 이름을 설정해두었습니다.
 
 <p align="center">
    <img src="png/vat_rename.png">
 </p>
 
-## list
+## /list
 
 You can check the list of persons.
 
@@ -140,4 +108,6 @@ You can check the list of persons.
    <img src="png/vat_list.png">
 </p>
 
-Visit [https://ukayzm.github.io/visitor-alarm-telegram-bot/](https://ukayzm.github.io/visitor-alarm-telegram-bot/) for more information.
+# 참고 자료 
+[https://ukayzm.github.io/visitor-alarm-telegram-bot/](https://ukayzm.github.io/visitor-alarm-telegram-bot/)
+
