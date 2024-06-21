@@ -31,7 +31,7 @@ optional arguments:
 ```
 
 구글을 서치해 Telegram bot을 우선 만들었습니다. 
-그 후, visitor_alarm_telegram_bot.py 파일을 토큰으로 파라미터로 실행시켰습니다. with the token as a parameter.
+그 후, visitor_alarm_telegram_bot.py 파일을 토큰으로 파라미터에 주고 실행시켰습니다. (아래 사진 참조)
 
 ```bash
 $ python visitor_alarm_telegram_bot.py --token '1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI'
@@ -43,6 +43,10 @@ Visitor Alarm Telegram Bot is started.
 * appearance_interval = 10
 press ^C to stop...
 ```
+
+<p align="center">
+   <img src="png/terminal_screenshot.png">
+</p>
 
 Telegram 앱을 핸드폰과 기기에 설치한 후, 봇의 채팅창에 들어가 '/start' 명령어를 사용해 작동시켰습니다.
 
@@ -68,7 +72,7 @@ webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다.
 
 ## /start
 
-설명..?
+얼굴 인식이 실행됩니다. 아래와 같이 메세지가 출력됩니다.
 
 <p align="center">
    <img src="png/tele_start1.png">
@@ -100,7 +104,7 @@ webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다.
 
 ## /list
 
-You can check the list of persons.
+인식된 인물들의 리스트를 확인할 수 있습니다.
 
 <p align="center">
    <img src="png/tele_list.png">
