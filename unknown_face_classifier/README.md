@@ -55,7 +55,7 @@ opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다
 웹 캠을 통해 얼굴 인식 성공 시
 * result 파일에 인식된 얼굴 폴더 생성 -> 폴더 이름 변경시 웹캠에 이름 변경되어 표시됨
 * montage 이름의 사진 파일 생성  
-![image](https://github.com/Florakimm2/OpensourceTeamProject/assets/63054274/f106ee17-cb64-4087-a5bc-d7fb7ac5b0ae)
+![KakaoTalk_20240621_093550829](https://github.com/Florakimm2/OpensourceTeamProject/assets/63054274/73e05e37-69ad-4db2-8724-bc9f7f296d8b)
 ![image](https://github.com/Florakimm2/OpensourceTeamProject/assets/63054274/d33fc5eb-6a6c-4b1b-bd1c-046e39d31b53)
 
 
