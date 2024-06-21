@@ -1,4 +1,8 @@
-# Visitor Alarm Telegram Bot 소개
+# Visitor Alarm Telegram Bot
+
+**프로젝트는 Anaconda 가상 환경에서 이루어졌습니다**  
+
+<br/>
 
 텔레그램 봇은 다음 기능들을 수행할 수 있습니다 : 
 * web cam에서 (혹은 비디오 파일) 비디오 읽어오기
@@ -6,7 +10,9 @@
 * 이전에 저장된 얼굴들과 인식되는 얼굴 비교
 * 새로운 얼굴이 인식되거나 저장된 얼굴이 다시 나타났을 시 or the person appears again, Telegram을 통해 메세지 전달하기
 
-# 사용한 라이브러리
+<br/><br/>
+
+# 📂사용한 라이브러리
 
 * opencv-python
 * opencv-contrib-python
@@ -15,9 +21,19 @@
 * imutils
 * python-telegram-bot
 * humanize
+  
+<br/><br/>
 
-# 작동 과정
+# 작동 과정  
 
+**코드 실행 방법**  
+```
+$ python visitor_alarm_telegram_bot.py --token '7283780418:AAHhazeM9l3B5vjNdMzZmOrwbmIrGwNX4U8'
+``` 
+
+<br/>
+
+**visitor_alram_telegram_bor 에서 사용 가능한 명령어 확인**
 ```bash
 $ python visitor_alarm_telegram_bot.py -h
 usage: visitor_alarm_telegram_bot.py [-h] --token TOKEN [--srcfile SRCFILE]
@@ -39,12 +55,14 @@ optional arguments:
                         alarm interval second between appearance (default=10)
 ```
 
+<br/>
+
 구글을 서치해 Telegram bot을 우선 만들었습니다. 
 그 후, visitor_alarm_telegram_bot.py 파일을 토큰으로 파라미터에 주고 실행시켰습니다. (아래 사진 참조)
 
 <p align="center">
   <img src="png/terminal_screenshot.png">
-</p>
+</p>  
 
 Telegram 앱을 핸드폰과 기기에 설치한 후, 봇의 채팅창에 들어가 '/start' 명령어를 사용해 작동시켰습니다.
 
