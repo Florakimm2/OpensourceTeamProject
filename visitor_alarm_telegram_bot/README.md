@@ -22,7 +22,7 @@
 * python-telegram-bot
 * humanize
 
-  <br/><br/>
+  <br/>
 
 ### ✊Anaconda 가상 환경에서 오류 발생시 라이브러리 다운
 opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다운 받아야함  
@@ -30,9 +30,7 @@ opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다
 <br/>
 
 **그 외 conda install을 사용해야하는 라이브러리**
-###### pip install로 진행하니 오류가 발생해서 다른 방법을 찾아본 결과 conda install로 진행
-
-<br/>
+###### pip install로 진행하니 오류가 발생해서 다른 방법을 찾아본 결과 conda install로 진행  
 
 *conda install -c conda-forge 라이브러리_이름*
 - opencv
@@ -44,7 +42,7 @@ opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다
 
 <br/><br/>
 
-# 작동 과정  
+# 🖥️작동 과정  
 
 **코드 실행 방법**  
 ```
