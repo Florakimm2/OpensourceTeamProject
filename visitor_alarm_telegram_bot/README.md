@@ -6,6 +6,15 @@
 * 이전에 저장된 얼굴들과 인식되는 얼굴 비교
 * 새로운 얼굴이 인식되거나 저장된 얼굴이 다시 나타났을 시 or the person appears again, Telegram을 통해 메세지 전달하기
 
+# 사용한 라이브러리
+
+* opencv-python
+* opencv-contrib-python
+* dlib (CMake 라이브러리 사용)
+* face_recognition
+* imutils
+* python-telegram-bot
+* humanize
 
 # 작동 과정
 
@@ -56,7 +65,7 @@ Telegram 앱을 핸드폰과 기기에 설치한 후, 봇의 채팅창에 들어
 webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다. 
 
 <p align="center">
-  <img src="png/name">
+  <img src="png/tele_settings.png">
 </p>p>
 
 ## /start
