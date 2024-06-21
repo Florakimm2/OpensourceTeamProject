@@ -45,7 +45,7 @@ press ^C to stop...
 ```
 
 <p align="center">
-   <img src="png/terminal_screenshot.png">
+   <img src="png/terminal_screenshot">
 </p>
 
 Telegram 앱을 핸드폰과 기기에 설치한 후, 봇의 채팅창에 들어가 '/start' 명령어를 사용해 작동시켰습니다.
