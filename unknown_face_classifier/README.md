@@ -22,6 +22,7 @@
 ```
 웹캠 버전 ( 웹 캠 작동 O )
 $ python face_classifier.py 0 -d -s 0
+
 비디오 버전 ( -i, -c 등과 같은 명령어에 오류 발생 )
 $ python face_classifier.py -i <비디오 파일 경로> -t 0.4 -c -s 0.5
 ```  
@@ -48,7 +49,8 @@ opencv-python과 opencv-contrib-python은 적용되지 않아 pip install로 다
 - dlib
 - face_recognition
 - imutils
-
+  
+<br/>
 ## 🐹실행 결과
 웹 캠을 통해 얼굴 인식 성공 시
 * result 파일에 인식된 얼굴 폴더 생성 -> 폴더 이름 변경시 웹캠에 이름 변경되어 표시됨
