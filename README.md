@@ -15,3 +15,5 @@ https://viewer.dcollection.net/originalViewer.jsp?streamdocsId=72059310428674398
 
 
 각 파일 README에 더 상세하게 기술해 놓았습니다. 
+
+*학기 종료 후 사진파일은 삭제 예정*
