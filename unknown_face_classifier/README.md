@@ -13,7 +13,7 @@
 
 <br/>
 
-* face_classifier.py - 웹캠 작동 확인
+* face_classifier.py - 웹캠을 통해 모르는 사람을 인식하고 아는 사람을 인식한다.
 * person_db.py - 인식된 얼굴 데이터베이스 관련 코드
 
 <br/><br/>
