@@ -58,6 +58,10 @@ rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 49번째 줄 수정
 rgb_small_frame = cv2.cvtColor(small_frame, cv2.COLOR_BGR2RGB)
 ```
+<br/>
+**실행 결과**  
+
+![face_recog](https://github.com/Florakimm2/OpensourceTeamProject/assets/63054274/52f9050f-98b3-490a-a763-69a94fabb155)
 
 <br/><br/>
 
