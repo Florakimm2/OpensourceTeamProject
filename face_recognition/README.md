@@ -61,7 +61,7 @@ rgb_small_frame = cv2.cvtColor(small_frame, cv2.COLOR_BGR2RGB)
 <br/>
 **실행 결과**  
 
-![face_recog](https://github.com/Florakimm2/OpensourceTeamProject/assets/63054274/52f9050f-98b3-490a-a763-69a94fabb155)
+![face_recog2](https://github.com/Florakimm2/OpensourceTeamProject/assets/63054274/673c7633-7d4d-440d-82c1-7d74c892560b)
 
 <br/><br/>
 
