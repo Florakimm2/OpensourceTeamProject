@@ -144,6 +144,9 @@ webcam과 연결되도록 설정 되어있음을 확인할 수 있습니다.
    <img src="png/tele_list.png">
 </p>
 
+<br/><br/>
+
 # 참고 자료 
-[https://ukayzm.github.io/visitor-alarm-telegram-bot/](https://ukayzm.github.io/visitor-alarm-telegram-bot/)
+참고 깃허브 : [https://github.com/ukayzm/opencv/tree/master/face_recognition]  
+참고 사이트 : (https://ukayzm.github.io/visitor-alarm-telegram-bot/)
 
